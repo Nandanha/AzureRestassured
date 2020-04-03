@@ -1,0 +1,61 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.io.tests.Workflow4",
+    "children" : [ {
+      "name" : "postUserCreation",
+      "uid" : "eaead53f2886f309",
+      "parentUid" : "32e2b20b147f0659394e5baa0cd4a31d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585662118598,
+        "stop" : 1585662121503,
+        "duration" : 2905
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "getUserCreated",
+      "uid" : "e51ec1054ea5566f",
+      "parentUid" : "32e2b20b147f0659394e5baa0cd4a31d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585662121564,
+        "stop" : 1585662121772,
+        "duration" : 208
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "putUserCreated",
+      "uid" : "e5a0e786a58faed0",
+      "parentUid" : "32e2b20b147f0659394e5baa0cd4a31d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585662121780,
+        "stop" : 1585662122258,
+        "duration" : 478
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "deleteUserCreated",
+      "uid" : "24d48e1f719a3ddf",
+      "parentUid" : "32e2b20b147f0659394e5baa0cd4a31d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585662122263,
+        "stop" : 1585662122787,
+        "duration" : 524
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "com.io.tests.Workflow4"
+  } ]
+}

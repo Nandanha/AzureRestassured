@@ -1,0 +1,71 @@
+{
+  "uid" : "e51ec1054ea5566f",
+  "name" : "GET operation to display details of specific User",
+  "fullName" : "com.io.tests.Workflow4.getUserCreated",
+  "historyId" : "4d82a3028fa0ca3777cca845b41d3c6a",
+  "time" : {
+    "start" : 1585662121564,
+    "stop" : 1585662121772,
+    "duration" : 208
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.io.tests.Workflow4"
+  }, {
+    "name" : "testClass",
+    "value" : "com.io.tests.Workflow4"
+  }, {
+    "name" : "testMethod",
+    "value" : "getUserCreated"
+  }, {
+    "name" : "parentSuite",
+    "value" : "mySuite"
+  }, {
+    "name" : "suite",
+    "value" : "Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.io.tests.Workflow4"
+  }, {
+    "name" : "host",
+    "value" : "blr-nandan.a"
+  }, {
+    "name" : "thread",
+    "value" : "66996@blr-nandan.a.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Check for a specific User details test"
+  }, {
+    "name" : "epic",
+    "value" : "REST API Automation Suite"
+  }, {
+    "name" : "story",
+    "value" : "GET operation to read details of a specific user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e51ec1054ea5566f.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,93 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "REST API Automation Suite",
+    "children" : [ {
+      "name" : "User creation test using POST",
+      "children" : [ {
+        "name" : "Payload for User creation is read and user is created using POST operation",
+        "children" : [ {
+          "name" : "Create User and Validate",
+          "uid" : "eaead53f2886f309",
+          "parentUid" : "083e340b9031e3a462348be97511be1d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1585662118598,
+            "stop" : 1585662121503,
+            "duration" : 2905
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "083e340b9031e3a462348be97511be1d"
+      } ],
+      "uid" : "c353db260e4bf5a86269c675ea9dca76"
+    }, {
+      "name" : "Check for a specific User details test",
+      "children" : [ {
+        "name" : "GET operation to read details of a specific user",
+        "children" : [ {
+          "name" : "GET operation to display details of specific User",
+          "uid" : "e51ec1054ea5566f",
+          "parentUid" : "b6794fb1cbe39dd17edb2bfb68398d4f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1585662121564,
+            "stop" : 1585662121772,
+            "duration" : 208
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b6794fb1cbe39dd17edb2bfb68398d4f"
+      } ],
+      "uid" : "6062d0299108ea0a6a7d88829f6a349a"
+    }, {
+      "name" : "Update previously created test",
+      "children" : [ {
+        "name" : "Payload for user previously created using PUT operation",
+        "children" : [ {
+          "name" : "Put operation to update the details of a specific user",
+          "uid" : "e5a0e786a58faed0",
+          "parentUid" : "6d714b997f32ab0041b6a7396a0cba32",
+          "status" : "passed",
+          "time" : {
+            "start" : 1585662121780,
+            "stop" : 1585662122258,
+            "duration" : 478
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "6d714b997f32ab0041b6a7396a0cba32"
+      } ],
+      "uid" : "b6ee0f467c5b36d62a081041bdf6d93b"
+    }, {
+      "name" : "Delete user feature test",
+      "children" : [ {
+        "name" : "Previously created user is deleted using DELETE operation",
+        "children" : [ {
+          "name" : "DELETE operation to remove a previously created user",
+          "uid" : "24d48e1f719a3ddf",
+          "parentUid" : "d4a16311c2962a0e867321742d651011",
+          "status" : "passed",
+          "time" : {
+            "start" : 1585662122263,
+            "stop" : 1585662122787,
+            "duration" : 524
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d4a16311c2962a0e867321742d651011"
+      } ],
+      "uid" : "e018f3789aa192448544b84cd532a9c8"
+    } ],
+    "uid" : "4c8fd2e1d08d1a5ae57c4a823e43b2b4"
+  } ]
+}

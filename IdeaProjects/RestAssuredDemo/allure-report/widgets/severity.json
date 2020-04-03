@@ -1,0 +1,41 @@
+[ {
+  "uid" : "24d48e1f719a3ddf",
+  "name" : "DELETE operation to remove a previously created user",
+  "time" : {
+    "start" : 1585662122263,
+    "stop" : 1585662122787,
+    "duration" : 524
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e5a0e786a58faed0",
+  "name" : "Put operation to update the details of a specific user",
+  "time" : {
+    "start" : 1585662121780,
+    "stop" : 1585662122258,
+    "duration" : 478
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e51ec1054ea5566f",
+  "name" : "GET operation to display details of specific User",
+  "time" : {
+    "start" : 1585662121564,
+    "stop" : 1585662121772,
+    "duration" : 208
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eaead53f2886f309",
+  "name" : "Create User and Validate",
+  "time" : {
+    "start" : 1585662118598,
+    "stop" : 1585662121503,
+    "duration" : 2905
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

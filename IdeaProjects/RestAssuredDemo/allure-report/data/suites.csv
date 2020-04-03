@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Mar 31 19:12:02 IST 2020","Tue Mar 31 19:12:02 IST 2020","524","mySuite","Tests","com.io.tests.Workflow4","com.io.tests.Workflow4","deleteUserCreated","DELETE operation to remove a previously created user",""
+"passed","Tue Mar 31 19:11:58 IST 2020","Tue Mar 31 19:12:01 IST 2020","2905","mySuite","Tests","com.io.tests.Workflow4","com.io.tests.Workflow4","postUserCreation","Create User and Validate",""
+"passed","Tue Mar 31 19:12:01 IST 2020","Tue Mar 31 19:12:01 IST 2020","208","mySuite","Tests","com.io.tests.Workflow4","com.io.tests.Workflow4","getUserCreated","GET operation to display details of specific User",""
+"passed","Tue Mar 31 19:12:01 IST 2020","Tue Mar 31 19:12:02 IST 2020","478","mySuite","Tests","com.io.tests.Workflow4","com.io.tests.Workflow4","putUserCreated","Put operation to update the details of a specific user",""

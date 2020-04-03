@@ -1,0 +1,69 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "mySuite",
+    "children" : [ {
+      "name" : "Tests",
+      "children" : [ {
+        "name" : "com.io.tests.Workflow4",
+        "children" : [ {
+          "name" : "Create User and Validate",
+          "uid" : "eaead53f2886f309",
+          "parentUid" : "17e145a44092062f3a41845d4b8989a0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1585662118598,
+            "stop" : 1585662121503,
+            "duration" : 2905
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "GET operation to display details of specific User",
+          "uid" : "e51ec1054ea5566f",
+          "parentUid" : "17e145a44092062f3a41845d4b8989a0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1585662121564,
+            "stop" : 1585662121772,
+            "duration" : 208
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Put operation to update the details of a specific user",
+          "uid" : "e5a0e786a58faed0",
+          "parentUid" : "17e145a44092062f3a41845d4b8989a0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1585662121780,
+            "stop" : 1585662122258,
+            "duration" : 478
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "DELETE operation to remove a previously created user",
+          "uid" : "24d48e1f719a3ddf",
+          "parentUid" : "17e145a44092062f3a41845d4b8989a0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1585662122263,
+            "stop" : 1585662122787,
+            "duration" : 524
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "17e145a44092062f3a41845d4b8989a0"
+      } ],
+      "uid" : "b2c133692a180542ba51b6f691102442"
+    } ],
+    "uid" : "e74d0f777cc46a3181f7b809f9573cb9"
+  } ]
+}

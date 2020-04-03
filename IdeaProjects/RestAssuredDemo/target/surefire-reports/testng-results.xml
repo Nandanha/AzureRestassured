@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-31T19:47:16 IST" name="mySuite" finished-at="2020-03-31T19:47:21 IST" duration-ms="4955">
+    <groups>
+    </groups>
+    <test started-at="2020-03-31T19:47:16 IST" name="Tests" finished-at="2020-03-31T19:47:21 IST" duration-ms="4955">
+      <class name="com.io.tests.Workflow4">
+        <test-method signature="postUserCreation()[pri:1, instance:com.io.tests.Workflow4@6e509ffa]" started-at="2020-03-31T19:47:16 IST" name="postUserCreation" description="Create User and Validate" finished-at="2020-03-31T19:47:20 IST" duration-ms="3143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postUserCreation -->
+        <test-method signature="getUserCreated()[pri:2, instance:com.io.tests.Workflow4@6e509ffa]" started-at="2020-03-31T19:47:20 IST" name="getUserCreated" description="GET operation to display details of specific User" finished-at="2020-03-31T19:47:20 IST" depends-on-methods="com.io.tests.Workflow4.postUserCreation" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserCreated -->
+        <test-method signature="putUserCreated()[pri:3, instance:com.io.tests.Workflow4@6e509ffa]" started-at="2020-03-31T19:47:20 IST" name="putUserCreated" description="Put operation to update the details of a specific user" finished-at="2020-03-31T19:47:21 IST" depends-on-methods="com.io.tests.Workflow4.getUserCreated" duration-ms="651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putUserCreated -->
+        <test-method signature="deleteUserCreated()[pri:4, instance:com.io.tests.Workflow4@6e509ffa]" started-at="2020-03-31T19:47:21 IST" name="deleteUserCreated" description="DELETE operation to remove a previously created user" finished-at="2020-03-31T19:47:21 IST" depends-on-methods="com.io.tests.Workflow4.putUserCreated" duration-ms="653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserCreated -->
+      </class> <!-- com.io.tests.Workflow4 -->
+    </test> <!-- Tests -->
+  </suite> <!-- mySuite -->
+</testng-results>

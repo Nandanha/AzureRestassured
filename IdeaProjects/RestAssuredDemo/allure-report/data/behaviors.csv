@@ -1,0 +1,5 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"REST API Automation Suite","Delete user feature test","Previously created user is deleted using DELETE operation","0","0","1","0","0"
+"REST API Automation Suite","User creation test using POST","Payload for User creation is read and user is created using POST operation","0","0","1","0","0"
+"REST API Automation Suite","Check for a specific User details test","GET operation to read details of a specific user","0","0","1","0","0"
+"REST API Automation Suite","Update previously created test","Payload for user previously created using PUT operation","0","0","1","0","0"
