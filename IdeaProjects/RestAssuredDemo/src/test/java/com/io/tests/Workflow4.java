@@ -26,8 +26,12 @@ public class Workflow4 {
     @Story("Payload for User creation is read and user is created using POST operation")
     public void postUserCreation() throws IOException {
 
-        payloadFilePath = new File("/Users/nandan.anantharamu/IdeaProjects/RestAssuredDemo/src/test/payload/createUser.txt");
-        payload = FileUtils.readFileToString(payloadFilePath);
+       // payloadFilePath = new File("/Users/nandan.anantharamu/IdeaProjects/RestAssuredDemo/src/test/payload/createUser.txt");
+       // payload = FileUtils.readFileToString(payloadFilePath);
+       payload="{\n" +
+                "    \"name\": \"morpheus\",\n" +
+                "    \"job\": \"leader\"\n" +
+                "}";
         response = commonFuntionalities.postOperationDemo("/api/users/", payload);
         jsonPathValidator = response.jsonPath();
         int status = response.getStatusCode();
@@ -71,8 +75,12 @@ public class Workflow4 {
     @Feature("Update previously created test")
     @Story("Payload for user previously created using PUT operation")
     public void putUserCreated() throws IOException {
-        payloadFilePath = new File("/Users/nandan.anantharamu/IdeaProjects/RestAssuredDemo/src/test/payload/updateUser.txt");
-        payload = FileUtils.readFileToString(payloadFilePath);
+      //  payloadFilePath = new File("/Users/nandan.anantharamu/IdeaProjects/RestAssuredDemo/src/test/payload/updateUser.txt");
+      //  payload = FileUtils.readFileToString(payloadFilePath);
+        payload="{\n" +
+                "    \"name\": \"morpheus\",\n" +
+                "    \"job\": \"zion resident\"\n" +
+                "}";
         response = commonFuntionalities.putOperationDemo("/api/users/2", payload);
         jsonPathValidator = response.jsonPath();
         int status = response.getStatusCode();
