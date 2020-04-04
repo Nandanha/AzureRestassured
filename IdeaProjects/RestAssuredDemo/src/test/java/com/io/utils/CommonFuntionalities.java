@@ -28,6 +28,7 @@ public class CommonFuntionalities {
     public static Response response = null;
     public static RequestSpecification request= null;
     public static Properties prop = new Properties();
+    public String BaseURL="https://reqres.in";
 
     public Properties loadConfig() throws IOException {
         File conffile = new File("/Users/nandan.anantharamu/IdeaProjects/RestAssuredDemo/src/main/resources/config.properties");
@@ -55,9 +56,11 @@ public class CommonFuntionalities {
     }
 
     public Response postOperation(String endpoint,String payload,String token) throws IOException {
+        /*
         prop=loadConfig();
         String BaseURL=prop.getProperty("host");
         System.out.println("--------------baseurl:"+BaseURL);
+        */
         String updatedurl=BaseURL+endpoint;
         System.out.println("--------------updatedurl:"+updatedurl);
         request=given().log().all()
@@ -187,8 +190,10 @@ public class CommonFuntionalities {
 
 
     public Response postOperationDemo(String endpoint,String payload) throws IOException {
+       /*
         prop=loadConfig();
         String BaseURL=prop.getProperty("host");
+        */
         System.out.println("--------------baseurl:"+BaseURL);
         String updatedurl=BaseURL+endpoint;
         System.out.println("--------------updatedurl:"+updatedurl);
@@ -203,8 +208,10 @@ public class CommonFuntionalities {
     }
 
     public Response getOperationDemo(String endpoint) throws IOException {
+        /*
         prop=loadConfig();
         String BaseURL=prop.getProperty("host");
+        */
         System.out.println("--------------baseurl:"+BaseURL);
         request=given().log().all()
                 .when()
@@ -216,8 +223,10 @@ public class CommonFuntionalities {
     }
 
     public Response deleteOperationDemo(String endpoint) throws IOException {
+        /*
         prop=loadConfig();
         String BaseURL=prop.getProperty("host");
+        */
         System.out.println("--------------baseurl:"+BaseURL);
         request=given().log().all()
                 .when()
@@ -229,8 +238,10 @@ public class CommonFuntionalities {
     }
 
     public Response putOperationDemo(String endpoint,String payload) throws IOException {
+        /*
         prop=loadConfig();
         String BaseURL=prop.getProperty("host");
+        */
         System.out.println("--------------baseurl:"+BaseURL);
         String updatedurl=BaseURL+endpoint;
         System.out.println("--------------updatedurl:"+updatedurl);
